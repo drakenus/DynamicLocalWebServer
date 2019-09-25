@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLocalWebServer", "DynamicLocalWebServer\DynamicLocalWebServer.csproj", "{4A531638-515D-4312-983B-BF849C6F5F8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4691E1DC-E912-4F3D-92DD-66744DE97608}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLocalWebServer.Tests", "DynamicLocalWebServer.Tests\DynamicLocalWebServer.Tests.csproj", "{674A694A-944E-4E05-AC86-DC88EC69A70F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A531638-515D-4312-983B-BF849C6F5F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A531638-515D-4312-983B-BF849C6F5F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A531638-515D-4312-983B-BF849C6F5F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A531638-515D-4312-983B-BF849C6F5F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674A694A-944E-4E05-AC86-DC88EC69A70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A694A-944E-4E05-AC86-DC88EC69A70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674A694A-944E-4E05-AC86-DC88EC69A70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A694A-944E-4E05-AC86-DC88EC69A70F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{674A694A-944E-4E05-AC86-DC88EC69A70F} = {4691E1DC-E912-4F3D-92DD-66744DE97608}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9B3AD7-CD3A-4813-A692-29F6AD59FEC3}
+	EndGlobalSection
+EndGlobal
