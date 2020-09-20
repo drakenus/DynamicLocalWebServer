@@ -1,0 +1,12 @@
+<Project>
+
+  <PropertyGroup>
+    <Authors>Karel Prchal</Authors>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+</Project>
