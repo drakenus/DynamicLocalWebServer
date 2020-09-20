@@ -1,12 +1,26 @@
- version: 2.1
+version: 2.1
 
- orbs:
+orbs:
   win: circleci/windows@2.2.0
 
- jobs:
-   build:
-     executor: win/default     
-    
-     steps:
-       - checkout
-       - run: dotnet build
+jobs:
+  build:
+    executor:
+      name: windows/default
+    steps:
+      - checkout
+      - run:
+        name: "Restore nugets"
+        command: dotnet.exe restore
+      - run:
+        name: "Build"
+        command: dotnet.exe build --configuration Release
+  test:
+    executor:
+      name: windows/default
+    steps:
+      - run: 
+        name: "Test"
+        command: dotnet.exe test -v n
+      
+        
