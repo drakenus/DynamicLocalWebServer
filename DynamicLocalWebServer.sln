@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLocalWebServer", "DynamicLocalWebServer\DynamicLocalWebServer.csproj", "{4A531638-515D-4312-983B-BF849C6F5F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLocalWebServer", "Src\DynamicLocalWebServer\DynamicLocalWebServer.csproj", "{4A531638-515D-4312-983B-BF849C6F5F8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4691E1DC-E912-4F3D-92DD-66744DE97608}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLocalWebServer.Tests", "DynamicLocalWebServer.Tests\DynamicLocalWebServer.Tests.csproj", "{674A694A-944E-4E05-AC86-DC88EC69A70F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLocalWebServer.Tests", "Tests\DynamicLocalWebServer.Tests\DynamicLocalWebServer.Tests.csproj", "{674A694A-944E-4E05-AC86-DC88EC69A70F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectFiles", "ProjectFiles", "{14C69FBD-8292-47F8-BF64-75E9DB585F0E}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

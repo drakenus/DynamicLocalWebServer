@@ -94,7 +94,7 @@ namespace LocalWebServer.Tests
         {
             var restClient = new RestClient(new Uri($"http://{testServerName}:{testServerPort}"));
             var restRequest = new RestRequest(route, method);
-            return await restClient.ExecuteTaskAsync(restRequest).ConfigureAwait(false);
+            return await restClient.ExecuteAsync(restRequest).ConfigureAwait(false);
         }
 
         public void Dispose()
